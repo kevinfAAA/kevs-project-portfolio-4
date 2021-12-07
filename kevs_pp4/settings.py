@@ -79,6 +79,8 @@ TEMPLATES = [
 WSGI_APPLICATION = 'kevs_pp4.wsgi.application'
 
 
+CSRF_TRUSTED_ORIGINS = ['https://8000-https://amber-boar-jpq8fnoz.ws-eu21.gitpod.io']
+
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
